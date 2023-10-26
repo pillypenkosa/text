@@ -15,7 +15,6 @@ class ComponentFooter {
 
 
 	static html( objData = {} ) {
-
 		const fooName = this.name + '.html()';
 		
 		this.args = objData.args ? objData.args : {}; 
@@ -35,6 +34,7 @@ class ComponentFooter {
 		};
 
 		let html = '© 2023 pillypenkosa@gmail.com';
+
 
 
 		return { tagParam, html };

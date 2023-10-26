@@ -17,7 +17,8 @@ const dependences = [
 
 	// масиви-списки з ЦЬОГО проекту ( свої ) -------------------------------------------------------------------------------------
 
-	{ arr: 'any' 	, }, 		// 	list\list.country.js
+	{ arr: 'oneliners' 			, },
+	
 
 
 
@@ -25,10 +26,14 @@ const dependences = [
 
 	// компоненти загальні --------------------------------------------------------------------------------------------------------
 
+
 	{ cmp: 'Win-Err404' 			, },
-	{ cmp: 'Aside' 					, },
 	{ cmp: 'Footer' 				, },
+	{ cmp: 'Menu' 					, },
 	{ cmp: 'Header' 				, },
+
+
+
 
 
 
@@ -36,11 +41,17 @@ const dependences = [
 
 	// компоненти-контенти // win-сторiнки ----------------------------------------------------------------------------------------
 	
-	{ cmp: 'Win-Index' 				, regexp: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
 
-	//{ cmp: 'Win-User1' 				, regexp: /^user1\/[0-9]+$/ 			, }, 	// user/{ n }
-	//{ cmp: 'Win-User2' 				, regexp: /^user2\/[0-9A-Za-z]+$/ 		, }, 	// user/{ txt }
-	//{ cmp: 'Win-Users' 				, regexp: /^users$/ 					, },
+
+
+	{ cmp: 'Win-One-Liners' 			, regexp: /^one-liners/ 				, }, 	
+	{ cmp: 'Win-Index' 					, regexp: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
+
+
+
+	//{ cmp: 'Win-User' 			, regexp: /^user\/[0-9]+$/ 				, }, 	// user/{ n }
+	//{ cmp: 'Win-User' 			, regexp: /^user\/[0-9A-Za-z]+$/ 		, }, 	// user/{ txt }
+	//{ cmp: 'Win-Users' 			, regexp: /^users$/ 					, },
 
 
 

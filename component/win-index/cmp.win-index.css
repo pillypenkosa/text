@@ -3,15 +3,30 @@ cmp-win-index {
 	all: unset;
 	display: block;
 */
-	font-family: Courier;
+
+
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	/*
+	justify-content: center; /* Центр горизонталь */
+	/*
+	align-items: center;     /* Центр вертикаль */
+
+	background: linear-gradient( to top, #099, #003 );
 	color: lime;
 }
 	cmp-win-index .clc {
-		cursor: pointer;
+
 	}
 		cmp-win-index .clc:hover {
 			color: yellow;
 		}
+
+
+
+
 
 
 
