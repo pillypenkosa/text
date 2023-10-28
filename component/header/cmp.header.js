@@ -40,7 +40,7 @@ class ComponentHeader {
 		let html = `
 			<div class="head">
 				<div class="title">${ appProjectName }</div>
-				<div class="btn-menu" onclick="ComponentHeader.clc()">
+				<div class="btn-menu pointer" onclick="ComponentHeader.clc()">
 					<img src="img/pic/menu.png" alt="close">
 				</div>
 			</div>

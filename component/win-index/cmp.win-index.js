@@ -15,7 +15,6 @@ class ComponentWinIndex {
 
 
 	static html( objData = {} ) {
-
 		const fooName = this.name + '.html()';
 		
 		this.args = objData.args ? objData.args : {}; 
@@ -32,16 +31,11 @@ class ComponentWinIndex {
 		};
 
 
-
-		//let html = '<div class="info">Бажаю здоров\'я! ))</div>';
-		let html = `<div>${ fooName }</div>`;
-
-
-
+		let html = `<div class="content">${ fooName }</div>`;
 
 
 		setMeta({
-			title 			: '',
+			title 			: appProjectName + ' ' + appVersion,
 			description 	: '',
 			//keywords 		: 'Ключові слова...' + name,
 			image 			: '',
@@ -66,6 +60,10 @@ class ComponentWinIndex {
 
 		//console.log( 'fooName', fooName );
 		//console.log( 'data', data );
+
+
+		
+
 
 	}
 

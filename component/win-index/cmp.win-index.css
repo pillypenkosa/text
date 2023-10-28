@@ -1,29 +1,15 @@
-cmp-win-index {
-	/*
-	all: unset;
+
+
+
+
+cmp-win-index { 
 	display: block;
-*/
-
-
-	height: 100%;
-	width: 100%;
-
-	display: flex;
-	/*
-	justify-content: center; /* Центр горизонталь */
-	/*
-	align-items: center;     /* Центр вертикаль */
-
-	background: linear-gradient( to top, #099, #003 );
-	color: lime;
+	padding: 20px;
+	color: #fff;
 }
-	cmp-win-index .clc {
-
+	cmp-win-index .each { 
+		margin: 0 0 20px 0;
 	}
-		cmp-win-index .clc:hover {
-			color: yellow;
-		}
-
 
 
 

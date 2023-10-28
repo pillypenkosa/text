@@ -1,16 +1,11 @@
 
 
-
-
-
 cmp-header {
-
 	position: fixed;
 	left: 0;
 	right: 0;
-	background: linear-gradient( to bottom, #009, #099 );	
+	background: var( --bg-b );
 }
-
 
 	cmp-header .head {
 		display: flex;
@@ -20,28 +15,22 @@ cmp-header {
 		color: #fff;
 	}
 
-
 	cmp-header .title{
 		margin: 0 0 0 10px;
 	}
 
 
-
 	cmp-header .btn-menu {
-
 		position: relative;
 		top: 5px;
 		right: 5px;
 	}
 
 
-
 	cmp-header .nav-menu {
-
 		position: absolute;
 		right: 0;
 		font-size: 20px;
-
 	}
 
 

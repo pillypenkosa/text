@@ -17,10 +17,13 @@ const dependences = [
 
 	// масиви-списки з ЦЬОГО проекту ( свої ) -------------------------------------------------------------------------------------
 
+	{ arr: 'advertisement' 		, },
+	{ arr: 'anecdote' 			, },
 	{ arr: 'oneliners' 			, },
+	{ arr: 'proverb' 			, },
+	{ arr: 'literal-error' 		, },
+	{ arr: 'philosophy' 		, },
 	
-
-
 
 
 
@@ -41,13 +44,7 @@ const dependences = [
 
 	// компоненти-контенти // win-сторiнки ----------------------------------------------------------------------------------------
 	
-
-
-
-	{ cmp: 'Win-One-Liners' 			, regexp: /^one-liners/ 				, }, 	
-	{ cmp: 'Win-Index' 					, regexp: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
-
-
+	{ cmp: 'Win-Index' 				, regexp: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
 
 	//{ cmp: 'Win-User' 			, regexp: /^user\/[0-9]+$/ 				, }, 	// user/{ n }
 	//{ cmp: 'Win-User' 			, regexp: /^user\/[0-9A-Za-z]+$/ 		, }, 	// user/{ txt }
