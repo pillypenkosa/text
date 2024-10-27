@@ -3,9 +3,9 @@ const arrListLiteralError = [
 	//{ id: '', title: '', },
 
 
-	{ title: 'БЕшенный кран', },
-	{ title: 'ГрУзовая туча', },
-	{ title: 'ПлОтный туалет', },
+	{ title: 'бЕшенный кран', },
+	{ title: 'грУзовая туча', },
+	{ title: 'плОтный туалет', },
 	//{ title: '', },
 	//{ title: '', },
 	//{ title: '', },
